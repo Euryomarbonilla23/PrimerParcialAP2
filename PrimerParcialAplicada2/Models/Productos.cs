@@ -12,7 +12,7 @@ namespace PrimerParcialAplicada2.Models
 
         public int ArtiiculoId { get; set; }
         [Required(ErrorMessage = "Este campo no puede Estar vacio")]
-        //   [MinLength(6,ErrorMessage ="Deben ser mas de 6 Caracteres")]
+        
         public string Descripcion { get; set; }
         [Required(ErrorMessage = "Este campo no puede Estar vacio")]
         [Range(0, 100000000, ErrorMessage = "La Existencia Debe Ser Mayor Que cero y menor 100000000")]
@@ -32,4 +32,4 @@ namespace PrimerParcialAplicada2.Models
             Inventario = 0;
         }
     }
-}
+} 
